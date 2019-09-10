@@ -106,6 +106,22 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
+        switch (view.getId()){
+            case R.id.fondo9:
+                if (Build.VERSION.SDK_INT >= 21){
+                    getWindow().setNavigationBarColor(getResources().getColor(R.color.material_green_400));
+                }
+                getWindow().setStatusBarColor(getResources().getColor(R.color.material_blue_500));
+
+        }
+        switch (view.getId()){
+            case R.id.fondo10:
+                if (Build.VERSION.SDK_INT >= 21){
+                    getWindow().setNavigationBarColor(getResources().getColor(R.color.material_blue_400));
+                }
+                getWindow().setStatusBarColor(getResources().getColor(R.color.material_gray_500));
+
+        }
 
 
     }
