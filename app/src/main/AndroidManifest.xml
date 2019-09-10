@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme.Teal">
+        android:theme="@style/AppTheme.Red">
 
         <activity android:name="upeu.edu.LibMaterialJRAC.MainActivity">
             <intent-filter>
