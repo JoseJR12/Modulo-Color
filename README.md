@@ -12,8 +12,10 @@ dependencias {
      .. .   
     proyecto de implementación ( ' : joseRAC')
      .. .
-}
+
+
 Sincronizar Gradle dando en 'Sincronizar ahora'.
+
 Uso
 Ir al archivo AndroidManifest.xml y cambiar el tema al requerido.
 < aplicación
