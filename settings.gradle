@@ -1,1 +1,1 @@
-include ':app', ':joserac'
+include ':app',':libmaterialjac', ':joserac'

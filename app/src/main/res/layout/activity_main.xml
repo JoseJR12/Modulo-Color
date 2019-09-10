@@ -24,15 +24,15 @@
 
         <RadioButton
             android:id="@+id/fondo1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="97dp"
+            android:layout_height="36dp"
             android:backgroundTint="#3F51B5"
             android:onClick="Window"
             android:text="Tema 1" />
 
         <RadioButton
             android:id="@+id/fondo2"
-            android:layout_width="wrap_content"
+            android:layout_width="95dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#E91E63"
@@ -41,7 +41,7 @@
 
         <RadioButton
             android:id="@+id/fondo3"
-            android:layout_width="wrap_content"
+            android:layout_width="95dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="Window"
@@ -49,7 +49,7 @@
 
         <RadioButton
             android:id="@+id/fondo4"
-            android:layout_width="wrap_content"
+            android:layout_width="95dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="Window"
@@ -57,7 +57,7 @@
 
         <RadioButton
             android:id="@+id/fondo5"
-            android:layout_width="wrap_content"
+            android:layout_width="95dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="Window"
@@ -65,7 +65,7 @@
 
         <RadioButton
             android:id="@+id/fondo6"
-            android:layout_width="wrap_content"
+            android:layout_width="96dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="Window"
@@ -73,7 +73,7 @@
 
         <RadioButton
             android:id="@+id/fondo7"
-            android:layout_width="wrap_content"
+            android:layout_width="97dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="Window"
@@ -81,7 +81,7 @@
 
         <RadioButton
             android:id="@+id/fondo8"
-            android:layout_width="wrap_content"
+            android:layout_width="96dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="Window"
@@ -89,7 +89,7 @@
 
         <RadioButton
             android:id="@+id/fondo9"
-            android:layout_width="wrap_content"
+            android:layout_width="98dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="Window"
@@ -97,7 +97,7 @@
 
         <RadioButton
             android:id="@+id/fondo10"
-            android:layout_width="wrap_content"
+            android:layout_width="97dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="Window"
@@ -111,7 +111,7 @@
         android:layout_width="153dp"
         android:layout_height="48dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -119,7 +119,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.603"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/lista1" />
 
     <TextView
         android:id="@+id/textView"
@@ -127,12 +127,14 @@
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="Spinner"
+        android:text="JoseJR"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/lista1"
@@ -141,10 +143,10 @@
         android:layout_below="@+id/textView"
         android:layout_alignLeft="@+id/textView"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -153,28 +155,57 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginEnd="108dp"
-        android:layout_marginBottom="264dp"
-        android:text="Button"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="316dp"
+        android:text="Aceptar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.815"
-        app:layout_constraintStart_toEndOf="@+id/radioGroup" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.803" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="284dp"
+        android:text="Otro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="CheckBox"
-        app:layout_constraintBottom_toTopOf="@+id/button1"
+        android:text="Femenino"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lista1"
-        app:layout_constraintVertical_bias="0.266" />
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Maculino"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

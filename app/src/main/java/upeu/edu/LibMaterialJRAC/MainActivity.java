@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     getWindow().setStatusBarColor(getResources().getColor(R.color.material_blue_500));
 
+
             }
         switch (view.getId()){
             case R.id.fondo2:
